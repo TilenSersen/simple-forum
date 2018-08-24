@@ -9,5 +9,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="icon" href="http://forum.sa-mp.im/styles/anami/theme/images/favicon.gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Italy Mafia Community</title>
   </head>

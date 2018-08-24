@@ -7,7 +7,7 @@
         <table class="table table-hover borderless">
             <thead>
             <tr class="MainRow">
-                <th class="thRadius" colspan="4"><a class="TableLink" href="viewforum.php?f=<?php echo $forum->Forum_ID; ?>"><?php echo $forum->Forum_Name; ?></a></th>
+                <th class="thRadius" colspan="5"><a class="TableLink" href="viewforum.php?f=<?php echo $forum->Forum_ID; ?>"><?php echo $forum->Forum_Name; ?></a></th>
             </tr>
             </thead>
             <tbody>
@@ -17,6 +17,7 @@
             ?>
                
             <tr>
+            <td style="text-align:center;white-space:nowrap;padding-top: 21px; background-color:#CD5C5C;font-size:15px"><i style="color:white"class="fa fa-folder-o"></i></td>
              <td><a class="TableFirst" href="viewforum.php?c=<?php echo $category->Category_ID; ?>"><?php echo $category->Category_Name; ?></a> <br/> <?php echo $category->Category_Description; ?></td>
                 <td><?php echo $category->Category_TopicsNum; ?> <br/> <dfn>Topics</dfn></td>
                 <td><?php echo $category->Category_PostsNum; ?> <br/><dfn>Posts</dfn></td>
